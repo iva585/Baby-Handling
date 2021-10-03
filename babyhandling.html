@@ -10,7 +10,7 @@
       rel="stylesheet"
     />
   </head>
-  <body class="flex flex-col">
+  <body class="flex flex-col cursor-default">
     <header
       class="
         space-x-4
@@ -25,7 +25,7 @@
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        class="w-12 h-12 fill-current my-3"
+        class="w-12 h-12 fill-current my-3 animate-bounce"
         viewBox="0 0 24 24"
       >
         <path
@@ -47,70 +47,146 @@
 
       <!--WILL USE MORE ACCESSIBLE FONTS IN MAIN-->
     </header>
-    <main>
-      <h1 id="top">Baby Handling</h1>
-      <p>So kannst du die Entwicklung deines Zwerges aktiv unterstützen!</p>
-      <img src="#" alt="" />
-      <h2>Was ist Baby Handling</h2>
-      <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad libero
-        saepe atque, reiciendis fuga, ratione a omnis iusto nam quasi,
-        consectetur facilis voluptatum quas ullam repudiandae assumenda tempore
-        animi nemo?
-      </p>
-      <p>Hier zeige ich dir wie du dein Baby:</p>
-      <ul>
-        <li>lorem ipsum</li>
-        <li>lorem ipsum</li>
-        <li>lorem ipsum</li>
-      </ul>
-      <h3>Aber Warum ist das wichtig?</h3>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. At, ab sequi.
-        Id quia dolor ut ratione possimus quasi ducimus placeat numquam animi?
-      </p>
-      <ul>
-        <li>lorem ipsum, dolor sit amet..</li>
-        <li>lorem ipsum, dolor sit amet..</li>
-        <li>lorem ipsum, dolor sit amet..</li>
-        <li>lorem ipsum, dolor sit amet..</li>
-        <li>lorem ipsum, dolor sit amet..</li>
-      </ul>
-      <img src="#" alt="bla" />
-      <h3>Und so wirds gemacht!</h3>
+    <main class="space-y-3 m-3 p-4">
+      <div class="p-6 font-mono text-center">
+        <h1 class="text-5xl text-blue-900" id="top">Baby Handling</h1>
+        <p class="text-blue-800 p-3">
+          So kannst du die Entwicklung deines Zwerges aktiv unterstützen!
+        </p>
+        <img
+          class="rounded-lg pb-8"
+          src="./h1baby.jpg"
+          alt="Baby feet in a soft white blanket"
+        />
+      </div>
+      <div class="space-y-3">
+        <h2 class="text-blue-800 text-3xl font-semibold">
+          Was ist Baby Handling?
+        </h2>
+        <p class="font-sans text-gray-800">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad libero
+          saepe atque, reiciendis fuga, ratione a omnis iusto nam quasi,
+          consectetur facilis voluptatum quas ullam repudiandae assumenda
+          tempore animi nemo? Lorem ipsum dolor sit amet, consectetur
+          adipisicing elit. Ab culpa sint tenetur aut, temporibus cumque
+          dignissimos voluptatum ipsam, iste vitae quis quaerat totam deserunt
+          harum repudiandae excepturi beatae. Repellat, cupiditate.
+        </p>
+        <p class="font-semibold text-blue-800 text-lg">
+          Hier zeige ich dir wie du dein Baby:
+        </p>
+        <nav class="underline text-blue-900 text-opacity-75">
+          <ul class="list-disc list-inside">
+            <li><a href="#here1">Richtig hochnimmst und wieder hinlegst</a></li>
+            <li><a href="#here2">Richtig trägst</a></li>
+            <li><a href="#here3">Richtig wickelst</a></li>
+          </ul>
+        </nav>
+        <img
+          class="rounded-lg"
+          src="./michal-bar-haim-RM9yEZLoJSc-unsplash.jpg"
+          alt="Cute blue-eyed baby hiding under blanket"
+        />
+        <h3 class="text-blue-800 text-3xl font-semibold pt-4">
+          Aber Warum ist das wichtig?
+        </h3>
+        <div class="font-sans text-gray-800">
+          <p class="pb-4">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. At, ab
+            sequi. Id quia dolor ut ratione possimus quasi ducimus placeat
+            numquam animi:
+          </p>
+          <ul class="list-disc list-inside pb-4">
+            <li>lorem ipsum, dolor sit amet..</li>
+            <li>lorem ipsum, dolor sit amet..</li>
+            <li>lorem ipsum, dolor sit amet..</li>
+            <li>lorem ipsum, dolor sit amet..</li>
+            <li>lorem ipsum, dolor sit amet..</li>
+          </ul>
+        </div>
+      </div>
+      <div class="bg-blue-100 mx-5 p-6 rounded-lg">
+        <h3 class="text-blue-800 text-3xl font-semibold pb-4">
+          Und so wirds gemacht!
+        </h3>
+        <dl class="space-y-8">
+          <div class="space-y-2 p-2">
+            <dt class="text-blue-800 text-2xl font-semibold" id="here1">
+              Baby richtig hochnehmen und hinlegen
+            </dt>
+            <dd class="font-sans text-gray-800">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit
+              repellat a rem. Quasi atque quo consequatur eligendi cum ducimus
+              corporis unde, quia fugit tenetur omnis, magnam soluta in fuga
+              mollitia!
+            </dd>
+            <img
+              class="rounded-lg shadow-2xl"
+              src="./jonathan-borba-Z39a7lqZusU-unsplash.jpg"
+              alt="Happy couple holding their newborn together in a light filled room"
+            />
+          </div>
+          <div class="space-y-2 p-2">
+            <dt class="text-blue-800 text-2xl font-semibold" id="here2">
+              Baby richtig tragen
+            </dt>
+            <dd class="font-sans text-gray-800">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi,
+              voluptatum! Excepturi nam molestias commodi qui eos dolorum
+              blanditiis, repellendus, exercitationem tempore officia quod
+              cupiditate neque deserunt repudiandae minus deleniti quam!
+            </dd>
+            <img
+              class="rounded-lg shadow-2xl"
+              src="./jonathan-borba-NcU4Y2j0FT0-unsplash.jpg"
+              alt="Mom smiling while holding and kissing her naked newborn in the cheek"
+            />
+          </div>
+          <div class="space-y-2 p-2">
+            <dt class="text-blue-800 text-2xl font-semibold" id="here3">
+              Baby richtig wickeln
+            </dt>
+            <dd class="font-sans text-gray-800">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
+              nisi consequuntur aperiam porro, ea quo quidem nobis sapiente?
+              Architecto harum obcaecati iste doloribus aliquid, tempore
+              necessitatibus. Similique placeat quis sed!
+            </dd>
+            <img
+              class="rounded-lg shadow-2xl"
+              src="./khoa-pham-9nC7j1gAS84-unsplash.jpg"
+              alt="Baby enjoying her massage on a sun filled changing table"
+            />
+          </div>
+        </dl>
+      </div>
 
-      <h2>Baby richtig hochheben und runterlegen</h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit
-        repellat a rem. Quasi atque quo consequatur eligendi cum ducimus
-        corporis unde, quia fugit tenetur omnis, magnam soluta in fuga mollitia!
+      <h3 class="font-semibold text-blue-800 text-lg pt-8">
+        Du möchtest mehr wissen?
+      </h3>
+      <p class="font-sans text-gray-800 pb-8">
+        <a class="text-blue-800 underline" href="./weitereinfos.html">Hier</a>
+        findest du weitere links and videos!
       </p>
-      <img src="#" alt="" />
-
-      <h2>Baby richtig tragen</h2>
-      <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi,
-        voluptatum! Excepturi nam molestias commodi qui eos dolorum blanditiis,
-        repellendus, exercitationem tempore officia quod cupiditate neque
-        deserunt repudiandae minus deleniti quam!
-      </p>
-      <img src="#" alt="" />
-
-      <h2>Baby richtig wickeln</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat nisi
-        consequuntur aperiam porro, ea quo quidem nobis sapiente? Architecto
-        harum obcaecati iste doloribus aliquid, tempore necessitatibus.
-        Similique placeat quis sed!
-      </p>
-      <img src="#" alt="" />
-
-      <h3>Du möchtest mehr wissen?</h3>
-      <p>
-        <a href="./weitereinfos.html">Hier </a>findest du weitere links and
-        videos!
-      </p>
-      <a href="#top">Back to Top</a>
     </main>
+    <a
+      class="
+        bg-blue-300
+        flex flex-wrap
+        justify-center
+        pt-3
+        m-5
+        h-12
+        w-32
+        font-semibold
+        text-white
+        align-middle
+        shadow-inner shadow-2xl
+        rounded-lg
+        animate-pulse
+      "
+      href="#top"
+      >Back to Top</a
+    >
   </body>
 </html>
